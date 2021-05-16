@@ -11,7 +11,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "https://localhost:5001/api/person",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"person"
+					]
 				}
 			},
 			"response": []
@@ -23,7 +32,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"alex\"\n}",
+					"raw": "{\n    \"name\": \"jaap\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -51,7 +60,17 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "https://localhost:5001/api/person/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"person",
+						"4"
+					]
 				}
 			},
 			"response": []
@@ -63,13 +82,34 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"jan\"\n}",
+					"raw": "{\n    \"name\": \"jantje\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
+				"url": {
+					"raw": "https://localhost:5001/api/person/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "person delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
 				"url": {
 					"raw": "https://localhost:5001/api/person/3",
 					"protocol": "https",

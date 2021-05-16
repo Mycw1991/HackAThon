@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using HackAThon.DBContexts;
+using HackAThon.Interfaces;
+using HackAThon.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,7 +33,7 @@ namespace HackAThon
 
             string mySqlConnectionStr = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContextPool<PersonContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
-
+            services.AddScoped<IPersonRepository, PersonRepository>();
             //services.AddDbContext<MysqlDBContext>(
             //    options => options.UseSqlServer("Server=remotemysql.com,3306;Database=UoDlTWCj2Y;User=UoDlTWCj2Y;Password=lvrXSH0xg8;"));
         }
