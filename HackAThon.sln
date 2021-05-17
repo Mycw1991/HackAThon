@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.809.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackAThon", "HackAThon\HackAThon.csproj", "{AA74A524-CFDB-417B-B345-D3396D2F8533}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{294EC597-CBCC-4F5A-AF24-0520E35A132E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AA74A524-CFDB-417B-B345-D3396D2F8533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA74A524-CFDB-417B-B345-D3396D2F8533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA74A524-CFDB-417B-B345-D3396D2F8533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294EC597-CBCC-4F5A-AF24-0520E35A132E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294EC597-CBCC-4F5A-AF24-0520E35A132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294EC597-CBCC-4F5A-AF24-0520E35A132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294EC597-CBCC-4F5A-AF24-0520E35A132E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

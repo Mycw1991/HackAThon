@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using HackAThon.Models;
+using HackAThon.Interfaces;
+using System.Threading.Tasks;
 
 namespace HackAThon.DBContexts
 {
